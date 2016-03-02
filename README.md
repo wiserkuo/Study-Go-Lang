@@ -36,3 +36,7 @@ https://golang.org/ref/spec
 
 Go Standard Library
 https://golang.org/pkg/
+
+Take A Tour of Go to learn the language proper. 
+a_tour_of_go.go
+https://tour.golang.org/basics/1
