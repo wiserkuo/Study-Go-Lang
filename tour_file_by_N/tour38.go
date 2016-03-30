@@ -1,6 +1,6 @@
 package main
 
-import "code.google.com/p/go_tour/pic"
+import "golang.org/x/tour/pic"
 
 func Pic(dx, dy int) [][]uint8 {
 	blue := make([][]uint8, dy)
@@ -10,7 +10,7 @@ func Pic(dx, dy int) [][]uint8 {
 			blue[i][j] = uint8((i + j) / 2)
 		}
 	}
-
+	return blue
 }
 
 func main() {
